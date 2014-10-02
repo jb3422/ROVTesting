@@ -82,7 +82,7 @@ function gameLoop() {
 	}else if (buttonPressed(gp.buttons[2])) {		// X Button
 		ball.style = "background-color:blue";
 	}else{
-		ball.style = "background-color:white"
+		ball.style = "background-color:none"
 	}
 
 	ball.style.left = a*2 + "px";
